@@ -9,10 +9,12 @@ Pasos a seguir
 
 2. Configurar un archivo docker-compose.yml
 
-    Define al menos dos servicios:
+Define al menos dos servicios:
+
         Apache: el servidor web donde configuraremos los virtual hosts.
         DNS: un servidor DNS interno que resolverá los dominios requeridos.
-    Asigna direcciones IP fija
+        
+Asigna direcciones IP fija
 En el docker-compose.yml del repositorio.
 Para que el DNS resuelva los dominios es muy facil, hay que primero de todo hay que entrar en el archivo resolved.conf.
 Se encuentra en la ruta /etc/systemd/resolved.conf hay que bajar y descomentarla parte de DNS, poner la ip de tu DNS del .yml poner la tecla numeral y el puerto que estas usando, eso servira para que tu DNS tambien solucione algunas consultas.
