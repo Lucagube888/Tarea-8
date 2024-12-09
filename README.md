@@ -1,5 +1,4 @@
-##Aquí tienes un texto explicando los pasos necesarios para llevar a cabo lo que solicitas:
-##Proyecto: Configuración de Apache con Docker y Múltiples Dominios
+<h2>Proyecto: Configuración de Apache con Docker y Múltiples Dominios<h2>
 
 Este proyecto tiene como objetivo configurar un servidor Apache en contenedores Docker, utilizando docker-compose para gestionar los contenedores y asignar direcciones IP fijas. Además, se configurará un DNS interno que resolverá dos dominios hacia la IP del contenedor de Apache, utilizando virtual hosts en el puerto 80 para gestionar cada dominio de manera separada.
 Pasos a seguir
